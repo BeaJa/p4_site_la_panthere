@@ -678,10 +678,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -712,7 +708,6 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
