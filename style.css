@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper2.png");
     background-size: 280px 280px;
 }
 
@@ -101,6 +101,8 @@ a:hover {
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .d-bloc button:hover {
@@ -753,7 +755,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -818,11 +820,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.webp");
+    background-image: url("img/agence-la-panthere2.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("img/image-de-presentation1.webp");
 }
 
 @media (max-width: 1024px) {
