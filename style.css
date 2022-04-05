@@ -363,6 +363,13 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.form-group {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.text-center {
+    text-align: center;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -655,7 +662,10 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-
+.text {
+    font-size: 19px;
+    text-shadow: 1px 4px 3px #F3976C;
+}
 .container {
     max-width: 1000px;
 }
@@ -821,7 +831,9 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation1.webp");
 }
-
+.text-center {
+    text-align: center;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -833,6 +845,9 @@ h4 {
     .bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
         padding-right: 0;
+    }
+    .text-center {
+        text-align: center;
     }
 }
 
@@ -854,6 +869,9 @@ h4 {
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    .text-center {
+        text-align: center;
     }
 }
 
