@@ -11,12 +11,6 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
-    
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
     <title>La panthère - Agence Web - page2</title>
 
     
@@ -75,25 +69,25 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="adresse">
 							Adresse email
 						</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="comment">
 							Comment nous avez-vous connu ?
 						</label>
 						<input class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="brief">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
@@ -128,22 +122,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://twitter.com/"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="twitter" href="#"><span class="fa fa-twitter icon-md" title="Twitter"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://fr-fr.facebook.com/"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="facebook" href="#"><span class="fa fa-facebook icon-md" title="Facebook"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="dribbble" href="#"><span class="fa fa-dribbble icon-md" title="Dribbble"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://www.instagram.com/?hl=fr"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="instagram" href="#"><span class="fa fa-instagram icon-md" title="Instagram"></span></a>
 						</div>
 					</div>
 				</div>
@@ -155,7 +149,11 @@
 
 </div>
 <!-- Principal conteneur END -->
-    
+<script src="./js/jquery-2.1.0.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/blocs.js"></script>
+<script src="./js/jqBootstrapValidation.js"></script>
+<script src="./js/formHandler.js"></script> 
 
 </body>
 </html>
